@@ -13,3 +13,4 @@
 - [Lesson 6: Functions](./src/06-functions.ts)
 - [Lesson 7: Classes](./src/07-classes.ts)
 - [Lesson 8: Tops and Bottom Types](./src/08-top_bottom_types.ts)
+- [Lesson 9: Types Guards and Narrowing](./src/09-type_guards_narrowing.ts)
