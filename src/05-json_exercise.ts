@@ -1,4 +1,4 @@
-type JSONPrimitive = string | number | boolean
+type JSONPrimitive = string | number | boolean | null
 type JSONObject = { [key: string]: JSONValue }
 type JSONArray = JSONValue[]
 type JSONValue = JSONPrimitive | JSONObject | JSONArray
@@ -14,4 +14,3 @@ isJSON(false)
 isJSON(true)
 isJSON(null)
 isJSON({ a: { b: [2, 3, "foo"] } })
- 

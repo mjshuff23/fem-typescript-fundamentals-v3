@@ -1,3 +1,4 @@
+"use strict";
 // Interfaces and Type Aliases
 //  Interfaces and Type Aliases are both ways to define a custom type.
 function maybeGetUserInfoTwo() {

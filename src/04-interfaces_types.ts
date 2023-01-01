@@ -101,14 +101,14 @@ careForDog(myDog);
 //  be used to define the shape of a class.  When defining the shape of a class,
 //  we use the implements keyword instead of extends.
 interface AnimalLike {
-  eat: (food) => void;
+  eat: (food: string) => void;
 }
 
 // This class implements the AnimalLike interface, which means that it must
 //  have an eat method.  If it does not, the compiler will throw an error.
 class Doggo implements AnimalLike {
   bark = () => console.log('woof');
-  eat = (food) => console.log('yum,', food);
+  eat = (food: string) => console.log('yum,', food);
 }
 
 const doggo = new Doggo();

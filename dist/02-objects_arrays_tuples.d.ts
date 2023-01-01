@@ -49,4 +49,4 @@ declare const fileExtensions3: Array<string>;
 declare let myCar: (string | number)[];
 declare const year: string | number, make: string | number, model: string | number;
 declare let mySecondCar: [number, string, string];
-//# sourceMappingURL=index-02.d.ts.map
+//# sourceMappingURL=02-objects_arrays_tuples.d.ts.map

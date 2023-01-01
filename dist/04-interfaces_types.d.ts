@@ -47,14 +47,14 @@ interface Dog extends Mammal {
 declare function careForDog(dog: Dog): void;
 declare const myDog: Dog;
 interface AnimalLike {
-    eat: (food: any) => void;
+    eat: (food: string) => void;
 }
 declare class Doggo implements AnimalLike {
     bark: () => void;
-    eat: (food: any) => void;
+    eat: (food: string) => void;
 }
 declare const doggo: Doggo;
 type NestedNumbers = number | NestedNumbers[];
 type NestedStrings = string | NestedStrings[];
 type ArraysOfNumbersAndStrings = (number | string)[] | ArraysOfNumbersAndStrings[];
-//# sourceMappingURL=index-04.d.ts.map
+//# sourceMappingURL=04-interfaces_types.d.ts.map

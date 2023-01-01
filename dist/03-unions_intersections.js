@@ -1,3 +1,4 @@
+"use strict";
 // Union and Intersection Types
 // Union and intersection types can conceptually be thought of as logical
 //  boolean operators (AND, OR, NOT) applied to types.  Imagine a Venn diagram

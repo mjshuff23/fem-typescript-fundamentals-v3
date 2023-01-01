@@ -1,3 +1,4 @@
+"use strict";
 // Objects, Arrays, and Tuples
 let car;
 /**

@@ -4,4 +4,4 @@
  * @param b The second number
  */
 export declare function addNumbers(a: number, b: number): Promise<number>;
-//# sourceMappingURL=index.d.ts.map
+//# sourceMappingURL=00-index.d.ts.map

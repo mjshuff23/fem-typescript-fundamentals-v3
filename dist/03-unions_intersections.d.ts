@@ -20,4 +20,4 @@ declare function makeWeek(): Date & {
 declare const week: Date & {
     endTime: Date;
 };
-//# sourceMappingURL=index-03.d.ts.map
+//# sourceMappingURL=03-unions_intersections.d.ts.map
