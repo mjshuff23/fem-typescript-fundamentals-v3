@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "declaration": true,  // generate declaration files
+    "declarationMap": true, // generate sourcemap for declaration files
+    "outDir": "./dist/", // output directory
+    "target": "ESNext"   // target ES version
+  },
+  "include": [           // files to compile
+    "./src/**/*"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "typescript_fundamentals_v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjshuff23/fem-typescript-fundamentals-v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjshuff23/fem-typescript-fundamentals-v3/issues"
+  },
+  "homepage": "https://github.com/mjshuff23/fem-typescript-fundamentals-v3#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
