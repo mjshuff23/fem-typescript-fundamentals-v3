@@ -86,3 +86,53 @@ class Truck {
 const t = new Truck("Ford", "F150", 2017);
 // t.#year; // Error: Property '#year' is not accessible outside class 'Truck' because it has a private identifier.
 // Readonly Fields
+//  You can use the readonly keyword to make a field read-only.
+class Airplane {
+    make;
+    model;
+    year;
+    constructor(make, model, year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+    updateYear() {
+        // this.year++; // Error: Cannot assign to 'year' because it is a read-only property.
+    }
+}
+// Param Properties
+//  TypeScript provides a more concise syntax for code like this, through the
+//  use of param properties:
+class Car3 {
+    make;
+    model;
+    year;
+    constructor(make, model, year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+}
+const myNewCar = new Car("Honda", "Accord", 2017);
+// myNewCar.m // offers suggestions for make or model
+// Order of Class Construction
+class Base {
+    bar = console.log('base class field initializer');
+    constructor() {
+        console.log('base constructor');
+    }
+}
+class Derived extends Base {
+    make;
+    foo = console.log('class field initializer');
+    constructor(make) {
+        super();
+        this.make = make;
+        console.log('custom constructor stuff');
+    }
+}
+const derived = new Derived('Honda');
+// 1. super()
+// 2. Parameter property initializers
+// 3. Field initializers
+// 4. Anything else after super()

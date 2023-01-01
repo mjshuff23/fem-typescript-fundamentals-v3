@@ -42,4 +42,28 @@ declare class Truck {
     constructor(make: string, model: string, year: number);
 }
 declare const t: Truck;
+declare class Airplane {
+    make: string;
+    model: string;
+    readonly year: number;
+    constructor(make: string, model: string, year: number);
+    updateYear(): void;
+}
+declare class Car3 {
+    make: string;
+    model: string;
+    readonly year: number;
+    constructor(make: string, model: string, year: number);
+}
+declare const myNewCar: Car;
+declare class Base {
+    bar: void;
+    constructor();
+}
+declare class Derived extends Base {
+    make: string;
+    foo: void;
+    constructor(make: string);
+}
+declare const derived: Derived;
 //# sourceMappingURL=07-classes.d.ts.map
