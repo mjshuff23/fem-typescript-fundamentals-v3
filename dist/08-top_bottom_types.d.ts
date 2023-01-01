@@ -22,4 +22,4 @@ declare const myVehicle: Vehicle;
 declare class InvalidVehicleError extends Error {
     constructor(_vehicle: never, message: string);
 }
-//# sourceMappingURL=08-top-bottom-types.d.ts.map
+//# sourceMappingURL=08-top_bottom_types.d.ts.map
