@@ -4,7 +4,7 @@
     "declarationMap": true, // generate sourcemap for declaration files
     "outDir": "./dist/", // output directory
     "target": "ESNext",   // target ES version
-    "strict": true
+    "strict": true,
   },
   "include": [           // files to compile
     "./src/**/*"
