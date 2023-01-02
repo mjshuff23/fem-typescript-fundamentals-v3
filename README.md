@@ -14,3 +14,4 @@
 - [Lesson 7: Classes](./src/07-classes.ts)
 - [Lesson 8: Tops and Bottom Types](./src/08-top_bottom_types.ts)
 - [Lesson 9: Types Guards and Narrowing](./src/09-type_guards_narrowing.ts)
+- [Lesson 10: Nullish Values](./src/10-nullish_values.ts)
