@@ -16,3 +16,4 @@
 - [Lesson 9: Types Guards and Narrowing](./src/09-type_guards_narrowing.ts)
 - [Lesson 10: Nullish Values](./src/10-nullish_values.ts)
 - [Lesson 11: Generics](./src/11-generics.ts)
+- [Lesson 12: Dictionary map, filter, and reduce](./src/12-dictionary_map_filter_reduce.ts)
